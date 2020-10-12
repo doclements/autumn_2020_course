@@ -11,15 +11,15 @@ mkdir git_reps
 cd git_reps
 
 # "clone" the code from the Git repository
-https://gitlab.eumetsat.int/eo-lab/ocean.git
+https://github.com/doclements/autumn_2020_course.git
 
-# you should now have a folder called "ocean".
+# you should now have a folder called "autumn_2020_course".
 # we are going to make and checkout your own local 'branch' of this code, so that you can track your changes against the downloaded code.
 # To do this run the line below where <YOUR_BRANCH_NAME> should be something sensible that identifies the date, your name, and what 
 # you are doing e.g. 20181121_ben_loveday_training_changes:
 
 # go into the ocean
-cd ocean
+cd autumn_2020_course
 
 # and make a new branch of the code
 git checkout -b <YOUR_BRANCH_NAME>
